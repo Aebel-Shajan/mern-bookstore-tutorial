@@ -4,15 +4,23 @@ This repo follows [this tutorial from the freeCodeCamp.](https://www.youtube.com
 
 ## Technologies used
 
-| Tech                | Use                                                                     | Docs                 |
-|---------------------|-------------------------------------------------------------------------|----------------------|
+| Main Tech          | Use                                                                     | Docs                 |
+|--------------------|-------------------------------------------------------------------------|----------------------|
 | ![][mongodb-badge] | Database used to store user data.                                       | [docs][mongodb-docs] |
-| ![][express-badge]  | Framework used for backend which runs ontop of node.js                  | [docs][express-docs] |
-| ![][react-badge]    | Frontend library used for rendering dom and ui.                         | [docs][react-docs]   |
-| ![][node-badge]     | Node.js is a cross-platform, open-source JavaScript runtime environment | [docs][node-docs]    |
-| | |
-| ![][nodemon-badge] |  a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected | [docs][nodemon-docs]
-| ![][mongoose-badge] | writing MongoDB validation, casting and business logic boilerplate is a drag. That's why we wrote Mongoose. | [docs][mongoose-docs]
+| ![][express-badge] | Framework used for backend which runs ontop of node.js                  | [docs][express-docs] |
+| ![][react-badge]   | Frontend library used for rendering dom and ui.                         | [docs][react-docs]   |
+| ![][node-badge]    | Node.js is a cross-platform, open-source JavaScript runtime environment | [docs][node-docs]    |
+
+| Other Tech          | Use                                                                                                                                                   | Docs                  |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|
+| ![][nodemon-badge]  | A tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected | [docs][nodemon-docs]  |
+| ![][mongoose-badge] | Writing MongoDB validation, casting and business logic boilerplate is a drag. That's why we wrote Mongoose.                                           | [docs][mongoose-docs] |
+| Cors                | CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.                            | [docs][cors-docs]     |
+
+## Keywords
+Keyword | Definition
+-|-
+Middleware | middleware refers to software components that facilitate communication between different layers of the application stack.
 
 <!-- Assets -->
 <!-- Badges from badges.pages.dev -->
@@ -29,3 +37,4 @@ This repo follows [this tutorial from the freeCodeCamp.](https://www.youtube.com
 [node-docs]: https://nodejs.org/docs/latest/api/synopsis.html
 [nodemon-docs]: https://nodemon.io/
 [mongoose-docs]: https://mongoosejs.com/docs/guide.html
+[cors-docs]: https://www.npmjs.com/package/cors#usage
